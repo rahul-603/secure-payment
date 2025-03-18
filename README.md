@@ -1,3 +1,12 @@
+THE FOLDER YOU'RE IN, IS THE BACKEND FILES
+
+(FRONTEND CONTENT ARE ALL INSIDE THE frontend FOLDER)
+
+FOR MAKING OUT THIS BACKEND FOLDER, LOCATE THIS DIRECTORY IN TERMINAL (VSC) AND RUN,
+
+```npm install express dotenv cors mongoose jsonwebtoken bcryptjs```
+
+
 another .env file should be present inside this folder... (can't commit due to its secured feature)
 
 .env file:
