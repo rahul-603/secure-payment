@@ -1,12 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PaymentPage from "./pages/PaymentPage";
+import Success from "./components/Success";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/" element={<PaymentPage />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </Router>
   );

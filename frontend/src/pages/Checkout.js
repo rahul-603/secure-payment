@@ -5,7 +5,7 @@ const Checkout = () => {
   return (
     <div>
       <h2>Complete Your Payment</h2>
-      <PayButton amount="10.00" />  {/* Pass the amount dynamically */}
+      <PayButton amount="5.00" /> {/* Amount passed dynamically */}
     </div>
   );
 };
